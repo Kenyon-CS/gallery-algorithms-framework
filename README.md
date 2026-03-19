@@ -143,6 +143,7 @@ macOS / Linux:
 
 ```bash
 ./planner data/gallery.yaml data/show.yaml greedy data/scoring.yaml
+./planner data/gallery.yaml data/show.yaml random data/scoring.yaml
 ```
 
 Windows (MSYS2 shell):
@@ -250,7 +251,7 @@ Places artworks one at a time into the zone that gives the best immediate score.
 ### `random`
 Assigns each artwork to a random zone. Useful as a baseline for comparison.
 
-## Suggested next assignments for students
+## Possible uses
 
 1. replace the parser with a fuller YAML library
 2. add more realistic gallery fields such as room adjacency, skylights, or temporary ceilings
